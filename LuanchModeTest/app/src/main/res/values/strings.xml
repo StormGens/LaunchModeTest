@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppA</string>
+    <string name="title_standard_activity">StandardActivity</string>
+    <string name="title_singleTop_activity">SingleTopActivity</string>
+    <string name="title_singleTask_activity">SingleTaskActivity</string>
+    <string name="title_singleTask2_activity">SingleTaskWithTaskAffinityActivity</string>
+    <string name="title_singleInstance_activity">SingleInstanceActivity</string>
+</resources>
