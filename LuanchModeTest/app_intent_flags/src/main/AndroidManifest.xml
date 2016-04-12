@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.zlq.app_intent_flags"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zlq.app_intent_flags.ActivityA"
+                  android:label="@string/activityA"/>
+        <activity android:name="com.zlq.app_intent_flags.ActivityC"
+                  android:label="@string/activityC"/>
+        <activity android:name="com.zlq.app_intent_flags.ActivityB"
+                  android:label="@string/activityB"/>
+        <activity android:name="com.zlq.app_intent_flags.ActivityD"
+                  android:label="@string/activityD"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">app_intent_flags</string>
+    <string name="activityA">activityA</string>
+    <string name="activityC">activityC</string>
+    <string name="activityB">activityB</string>
+    <string name="activityD">activityD</string>
+</resources>

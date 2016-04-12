@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/LuanchModeTest.iml" filepath="$PROJECT_DIR$/LuanchModeTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app_b/app_b.iml" filepath="$PROJECT_DIR$/app_b/app_b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app_intent_flags/app_intent_flags.iml" filepath="$PROJECT_DIR$/app_intent_flags/app_intent_flags.iml" />
     </modules>
   </component>
 </project>

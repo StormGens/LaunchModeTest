@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.zlq.app_intent_flags.IntentFlagsBaseActivity">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/taskId_label"
+            android:textSize="16sp"
+            android:text="当前任务栈ID："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/taskId_tv"
+            android:layout_below="@id/taskId_label"
+            android:textSize="16sp"
+            tools:text="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/taskId_tv"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/flag_new_task"
+            android:text="FLAG_ACTIVITY_NEW_TASK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <CheckBox
+            android:id="@+id/flag_clear_task"
+            android:text="FLAG_ACTIVITY_CLEAR_TASK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <CheckBox
+            android:id="@+id/flag_clear_top"
+            android:text="FLAG_ACTIVITY_CLEAR_TOP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <CheckBox
+            android:id="@+id/flag_single_top"
+            android:text="FLAG_ACTIVITY_SINGLE_TOP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <CheckBox
+            android:id="@+id/flag_reorder_to_front"
+        android:text="FLAG_ACTIVITY_REORDER_TO_FRONT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+        <CheckBox
+            android:id="@+id/flag_brought_to_front"
+            android:text="FLAG_ACTIVITY_BROUGHT_TO_FRONT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <CheckBox
+            android:id="@+id/flag_forward_result"
+            android:text="FLAG_ACTIVITY_FORWARD_RESULT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/startA_btn"
+            android:text="启动ActivityA"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/startB_btn"
+            android:text="启动ActivityB"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/startC_btn"
+            android:text="启动ActivityC"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/startD_btn"
+            android:text="启动ActivityD"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

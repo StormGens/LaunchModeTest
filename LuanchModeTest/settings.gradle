@@ -1,1 +1,1 @@
-include ':app', ':app_b'
+include ':app', ':app_b', ':app_intent_flags'
